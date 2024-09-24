@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Our Blogs</title>
+</head>
+
+<body>
+
+
+  <div class=" bg-[#F9F7F3] lg:py-5 h-60 lg:h-auto lg:mb-10">
+    <nav class=" container lg:max-w-7xl lg:m-auto">
+      <div class="navbar flex flex-col lg:flex-row  justify-between gap-6">
+        <div class="lg:navbar-start">
+          <button id="home-page" class="btn btn-ghost text-xl bg-[#B4F461]">Home</button>
+        </div>
+        <div class="lg:navbar-center lg:flex ">
+          <div class="flex justify-center items-center lg:gap-4 flex-col lg:flex-row">
+            <img class="mb-6 lg:mb-0" src="assets/logo.png" alt="">
+
+            <h1 class="lg:text-3xl font-bold ">As-Sunnah Foundation</h1>
+          </div>
+        </div>
+        <div class="lg:navbar-end flex gap-3 items-center ">
+          <img class="lg:w-8" src="assets/coin.png" alt="">
+          <p class="lg:text-2xl font-bold"><span>200</span>BDT</p>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="lg:max-w-7xl lg:m-auto">
+    <h1 class="text-3xl font-bold mb-8">Improtant FAQ?</h1>
+
+
+    <div class="collapse collapse-arrow bg-base-200 border mb-3">
+      <input type="radio" name="my-accordion-2" checked="checked" />
+      <div class="collapse-title text-xl font-medium">Can I donate items instead of money?</div>
+      <div class="collapse-content">
+        <p>Yes, some causes accept non-monetary donations like clothing, food, or supplies. Please check the specific
+          cause’s page
+          for more information on item donations.</p>
+      </div>
+    </div>
+
+
+    <div class="collapse collapse-arrow bg-base-200 border mb-3">
+      <input type="radio" name="my-accordion-2" />
+      <div class="collapse-title text-xl font-medium">What is the purpose of this donation platform?</div>
+      <div class="collapse-content">
+        <p>Our platform connects donors with various causes and charities that need support. Whether you want to donate
+          to
+          education, healthcare, disaster relief, or any other cause, we provide a transparent way for your
+          contributions to make
+          an impact.</p>
+      </div>
+    </div>
+
+
+
+    <div class="collapse collapse-arrow bg-base-200 border mb-3">
+      <input type="radio" name="my-accordion-2" />
+      <div class="collapse-title text-xl font-medium">How can I donate?</div>
+      <div class="collapse-content">
+        <p>Simply click on the "Donate Now" button, select the cause you wish to support, enter your payment details,
+          and confirm
+          your donation. You can donate via credit/debit card, PayPal, or bank transfer.</p>
+      </div>
+    </div>
+
+    <div class="collapse collapse-arrow bg-base-200 border">
+      <input type="radio" name="my-accordion-2" />
+      <div class="collapse-title text-xl font-medium">Are donations tax-deductible?</div>
+      <div class="collapse-content">
+        <p>Yes, all donations made through our platform to registered charities are tax-deductible. After your donation,
+          you will
+          receive an email with a tax receipt for your records.</p>
+      </div>
+    </div>
+
+  </div>
+
+
+  <script>
+    // blog page to home page//
+    document.getElementById('home-page').addEventListener('click', function () {
+      window.location.href = '/index.html';
+    });
+  </script>
+
+</body>
+
+</html>
