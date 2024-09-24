@@ -1,9 +1,11 @@
-// function getInputAmount(id) {
-//   getinput = document.getElementById(id).value;
-//   inputNumber = parseFloat(getinput);
-//   return inputNumber;
-// }
+function getInputAmount(id) {
+  getinput = document.getElementById(id).value;
+  inputNumber = parseFloat(getinput);
+  return inputNumber;
+}
 
-// function getInner(params) {
-
-// }
+function getInnerAmount(id) {
+  innerbalance = document.getElementById(id).innerText;
+  balanceNumber = parseFloat(innerbalance);
+  return balanceNumber;
+}

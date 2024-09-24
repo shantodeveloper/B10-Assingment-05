@@ -37,7 +37,7 @@
           </div>
           <div class="lg:navbar-end flex gap-3 items-center ">
             <img class="lg:w-8" src="assets/coin.png" alt="">
-            <p class="lg:text-2xl font-bold"><span>200</span>BDT</p>
+            <p class="lg:text-2xl font-bold"><span id="acount-balance">10000</span>BDT</p>
           </div>
         </div>
       </nav>
@@ -66,7 +66,7 @@
 
 
     <!-- The button to open modal -->
-    <label for="my_modal_6" class="btn">open modal</label>
+
 
     <!-- Put this part before </body> tag -->
     <input type="checkbox" id="my_modal_6" class="modal-toggle" />
@@ -91,13 +91,13 @@
           <img src="assets/assunnah-complex.jpg" alt="">
         </figure>
         <div class="card-body lg:w-1/2">
-          <div class="w-32 lg:-mt-8">
+          <div class="w-auto lg:-mt-8">
             <button class="btn ">
               <img src="assets/coin.png" alt="">
-              <p class="font-bold"><span>0</span> BDT</p>
+              <p class="font-bold"><span id="balance">1000</span> BDT</p>
             </button>
           </div>
-          <h1 class="lg:text-2xl font-bold">As-Sunnah Foundation Mosque Complex</h1>
+          <h1 id="titel" class="lg:text-2xl font-bold">As-Sunnah Foundation Mosque Complex</h1>
 
           <p>As-Sunnah Foundation Mosque Complex will be the focal point of As-Sunnah Foundation's multifaceted
             activities
@@ -108,7 +108,10 @@
 
           <input id="input-amount" class="border p-2 rounded-md" type="text" placeholder="write Donation Amount">
 
-          <button id="donate-btn" class="btn bg-[#B4F461] ">Donate Now</button>
+
+          <button onclick="handleClick('titel', 'input-amount', 'balance' )" class="btn bg-[#B4F461]">Donate
+            Now</button>
+
 
         </div>
       </div>
@@ -125,13 +128,13 @@
           <img src="assets/emergency-relief-distribution-2024.jpg" alt="">
         </figure>
         <div class="card-body lg:w-1/2">
-          <div class="w-32 lg:-mt-8">
+          <div class="w-auto lg:-mt-8">
             <button class="btn ">
               <img src="assets/coin.png" alt="">
-              <p class="font-bold"><span>0</span> BDT</p>
+              <p class="font-bold "><span id="balance-2">0</span> BDT</p>
             </button>
           </div>
-          <p class="lg:text-2xl font-bold">Emergency Flood Fund</p>
+          <h1 id="titel2" class="lg:text-2xl font-bold">Emergency Flood Fund</h1>
 
           <p>About 26,000 square kilometers (18%) of Bangladesh are flooded every year during the monsoon season. At
             this
@@ -142,9 +145,10 @@
             beside the
             distressed and helpless people.</p>
 
-          <input class="border p-2 rounded-md" type="text" placeholder="write Donation Amount">
+          <input id="input2" class="border p-2 rounded-md" type="text" placeholder="write Donation Amount">
 
-          <button class="btn bg-[#B4F461] donate-btn">Donate Now</button>
+          <button onclick="handleClick('titel2','input2','balance-2')" class="btn bg-[#B4F461] donate-btn">Donate
+            Now</button>
 
         </div>
       </div>
@@ -161,13 +165,13 @@
           <img src="assets/flood.jpg" alt="">
         </figure>
         <div class="card-body lg:w-1/2">
-          <div class="w-32 lg:-mt-8">
+          <div class="w-auto lg:-mt-8">
             <button class="btn ">
               <img src="assets/coin.png" alt="">
-              <p class="font-bold"><span>0</span> BDT</p>
+              <p class="font-bold"><span id="balance-3">0</span> BDT</p>
             </button>
           </div>
-          <h1 class="lg:text-2xl font-bold">Emergency relief distribution</h1>
+          <h1 id="titel-3" class="lg:text-2xl font-bold">Emergency relief distribution</h1>
 
           <p>If you donate to a specific sector, As-Sunnah Foundation spends it in that sector. And the money from the
             general fund
@@ -175,9 +179,9 @@
             the
             management of religious education, human service and dawah initiatives of As-Sunnah.</p>
 
-          <input class="border p-2 rounded-md" type="text" placeholder="write Donation Amount">
+          <input id="input-3" class="border p-2 rounded-md" type="text" placeholder="write Donation Amount">
 
-          <button class="btn bg-[#B4F461]">Donate Now</button>
+          <button onclick="handleClick('titel-3', 'input-3', 'balance-3')" class="btn bg-[#B4F461]">Donate Now</button>
 
         </div>
       </div>
