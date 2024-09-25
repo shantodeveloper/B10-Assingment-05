@@ -1,6 +1,7 @@
 // home page to blog page
 document.getElementById('blog-page').addEventListener('click', function () {
-  window.location.href = '/blog.html';
+  window.location.href =
+    'https://shantodeveloper.github.io/B10-Assingment-05/blog.html';
 });
 // btn id includes
 const donationBtn = document.getElementById('donation-btn');
