@@ -1,4 +1,3 @@
-// clik donation btn click
 function handleClick(titel, input, balance) {
   const titleElement = document.getElementById(titel).innerText;
   const inputAmounts = getInputAmount(input);
@@ -23,7 +22,6 @@ function handleClick(titel, input, balance) {
     history.innerHTML = `<h1 class="font-bold mb-4 border p-8">${inputAmounts} Taka is Donate for ${titleElement}  <br> <br> ${new Date()}</h1> 
   `;
     historyadd.appendChild(history);
-
     document.getElementById('my_modal_6').checked = true;
   } else {
     alert('your balance is low');
